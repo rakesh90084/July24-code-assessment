@@ -1,0 +1,41 @@
+{% extends 'header.html' %}
+{% block myContent %}
+<div class="container">
+    <div class="row">
+        <div class="col col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4"></div>
+        <div class="col col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+          <form action="http://127.0.0.1:8000/Books/addpage/" method="post">
+            <center><marquee behavior="scroll" direction="left"><h4>BOOKS APP</h4></marquee></center>
+            <table class="table table-borderless">
+                <tr>
+                    <td><h6>BOOK NAME</h6></td>
+                    <td><input name="book_name" type="text" class="form-control"></td>
+                </tr>
+                <tr>
+                    <td><h6>AUTHOR</h6></td>
+                    <td><input  name="author" type="text" class="form-control"></td>
+                </tr>
+                <tr>
+                    <td><h6>DESCRIPTION</h6></td>
+                    <td><input  name="description" type="text" class="form-control"></td>
+                </tr>
+                <tr>
+                    <td><h6>PRICE</h6></td>
+                    <td><input  name="price" type="number" class="form-control"></td>
+                </tr>
+                <tr>
+                    <td><h6>CATEGORY</h6></td>
+                    <td><input  name="category" type="text" class="form-control"></td>
+                </tr>
+               
+                    <td></td>
+                    <td><center><button type="submit" class="btn btn-outline-secondary"><h6>REGISTER</h6></button></center></td>
+                </tr>
+            </table>
+          </form>
+        </div>
+        <div class="col col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4"></div>
+    </div>
+</div>    
+{% endblock %}
+    

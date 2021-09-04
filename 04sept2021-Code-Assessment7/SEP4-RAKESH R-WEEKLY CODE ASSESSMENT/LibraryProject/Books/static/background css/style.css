@@ -1,0 +1,10 @@
+body{
+    /* background-image:url('/static/image.jfif'); */
+    background: linear-gradient(
+        #e0eafc
+      , 
+      #cfdef3
+      ); 
+    /* background-color: salmon; */
+    height: 100vh;
+  }
